@@ -162,8 +162,9 @@ p{
 }
 
 .price-text{
-  font-size: 3rem;
+  font-size: clamp(2rem, 3vw, 3rem) ;
   line-height: 1.5;
+  white-space: nowrap
 }
 
 
